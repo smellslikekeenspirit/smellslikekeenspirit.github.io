@@ -82,6 +82,7 @@ a:hover, a:active {
 
 .social-links li {
     padding: 15px;
+    justify-content: center;
 }
 
 .social-links a {
