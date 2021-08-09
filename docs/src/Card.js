@@ -8,6 +8,15 @@ function MainPage() {
   delay: 300});
   return (
       <div>
+            <div class="social-bar">
+            <a class="social" href="https://github.com/smellslikekeenspirit"
+            onclick={() => window.open("https://github.com/smellslikekeenspirit")}>GitHub</a>
+            <a class="social" href="https://www.medium.com/@priontinasir"
+            onclick={() => window.open("https://www.medium.com/@priontinasir")}>Medium</a>
+            <a class="social" href="https://www.linkedin.com/in/prionti-nasir"
+            onclick={() => window.open("https://www.linkedin.com/in/prionti-nasir")}>LinkedIn</a>
+            <a class="social" href="https://smellslikekeenspirit.github.io/files/PriontiNasirResume.pdf">Resume</a>
+          </div>
             <div data-aos="fade-right"
             class="section-header">
                 Hello<br></br>Hello,<br></br>
@@ -20,7 +29,7 @@ function MainPage() {
             </div>
             <div>
               <p class="lol" data-aos="zoom-in-right"><span class="bullet">✦</span> I am currently a rising senior at Rochester studying Computer Science and Digital Humanities.
-              I am very passionate about technology...when it is used to enhance the human experience instead of adding to its ills.
+              I am very passionate about technology - when it is used to enhance the human experience instead of adding to its ills.
               </p>
               <p class="lol" data-aos="zoom-in"><span class="bullet">✦</span> It's summer 2021. I am an intern at Microsoft where I work in a full-stack role, developing an end-to-end project.
               I'm working with geospatial stores, using C# (of course) for backend, and Typescript for frontend.
@@ -34,11 +43,6 @@ function MainPage() {
               Besides that, you can find my writing sprinkled around the virtual realm.
               <a class="link" href="www.medium.com/@priontinasir">Here's</a> one of the places I speak of.
               Poetry is usually kept more private.</p>
-          </div>
-          <div class="social-bar">
-            <a class="social" href="https://github.com/smellslikekeenspirit">GitHub</a>
-            <a class="social" href="www.medium.com/@priontinasir">Medium</a>
-            <a class="social" href="www.linkedin.com/in/prionti-nasir">LinkedIn</a>
           </div>
       </div>
 

@@ -17,15 +17,23 @@ body {
 }
 
 .social-bar {
-  align-items: center !important;
+  margin-right: 0;
+  text-align: right !important;
+  padding: 1%;
 }
 
 .social {
-  font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: #18f1b7;
-  font-size: 25px;
-  margin-left: 20px;
-  padding: 10px 10px 10px 10px;
+  font-family: "IBM Plex Mono", "Courier New", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #5da793;
+  padding: 2%;
+  text-decoration: none;
+  opacity: 1;
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.social:hover {
+  text-decoration: underline;
 }
 
 .bullet {
@@ -33,7 +41,7 @@ body {
 }
 
 .handle {
-  background-color:#156194;
+  background-color:rgba(54, 255, 203, 0.24);
   color: #fafafa;
 }
 
@@ -59,19 +67,23 @@ body {
   display: inline-block;
   background: linear-gradient(
 140deg
-, #36ffcb 0%, #1a388c 100%);
+, #3ebe9c 10%, #141f3d 100%);
   margin-top: 60px;
-  margin-bottom: 48px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 90%;
   font-size: 200px;
   font-weight: 900 !important;
   text-transform: uppercase;
-  padding-top: 30px;
-  padding-bottom: 200px;
+  padding-bottom: 10%;
   opacity: 1;
   letter-spacing: -4px;
+  transition: 0.5s all ease-in-out;
+}
+
+.intro:hover {
+  opacity: 2;
+  transform: scale(1.5);
 }
 
 .p, .lol {
@@ -89,4 +101,10 @@ body {
 
 .link {
   color: #18f1b7;
+}
+
+@media screen and (max-height: 700px){
+  .section-header{
+      padding-bottom: 30%;
+  }
 }
